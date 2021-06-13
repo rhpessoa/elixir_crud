@@ -1,37 +1,27 @@
 <section class="phx-hero">
-  <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
-  <p>Peace of mind from prototype to production</p>
+  <h1><%= gettext "Bem vindo ao %{name}!", name: "Curso" %></h1>
+  <p> Obrigado por participar.</p>
+
 </section>
 
 <section class="row">
   <article class="column">
-    <h2>Resources</h2>
+    <h2>Texto_01</h2>
     <ul>
       <li>
-        <a href="https://hexdocs.pm/phoenix/overview.html">Guides &amp; Docs</a>
+        <a >Texto_01</a>
       </li>
       <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
+        <a>Texto_02</a>
       </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix/blob/v1.5/CHANGELOG.md">v1.5 Changelog</a>
-      </li>
+
     </ul>
   </article>
   <article class="column">
-    <h2>Help</h2>
+    <h2>Usuários</h2>
     <ul>
       <li>
-        <a href="https://elixirforum.com/c/phoenix-forum">Forum</a>
-      </li>
-      <li>
-        <a href="https://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on Freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">Twitter @elixirphoenix</a>
-      </li>
-      <li>
-        <a href="https://elixir-slackin.herokuapp.com/">Elixir on Slack</a>
+        <a href="https://infinite-woodland-33738.herokuapp.com/users">Clique para continuar</a>
       </li>
     </ul>
   </article>

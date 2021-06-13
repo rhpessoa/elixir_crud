@@ -22,10 +22,13 @@ defmodule Crud.Accounts.User do
     |> unique_constraint(:email)
   end
   defp validate_date(_type,nascimento) do
-    IO.inspect(nascimento)
     today = Date.utc_today
-    if  Date.diff(today,nascimento) > 2 do
-      [nascimento: "-5"]
+    teste = Date.diff(today,nascimento)
+    IO.inspect(teste)
+    date_diff = Date.diff(today,nascimento)
+    if  date_diff >= 27375 || date_diff < 0  do
+      [nascimento: "data inválida"]
+
     else
       []
     end
